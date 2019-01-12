@@ -1,0 +1,45 @@
+<?php
+
+    $msg="My name is Sayan";
+    $val1=+919903339132;
+    $val2=+919831700008;
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Script Change</title>
+    <script type = 'text/javascript'>
+        function one() {            
+        // then echo it into the js/html stream
+        // and assign to a js variable
+        var msg = '<?php echo $msg ;?>';
+        var value1 = '<?php echo $val1 ;?>';
+        var value2 = '<?php echo $val2 ;?>';
+        // then
+        document.getElementById("disp1").innerHTML=msg+" :: Access in Func :: one()";
+        document.getElementById("disp2").innerHTML=value1+" :: Access in Func :: one()";
+        document.getElementById("disp3").innerHTML=value2+" :: Access in Func :: one()";        
+        }
+        window.onload = function()
+        {
+            var msg = '<?php echo $msg ;?>';
+        var value1 = '<?php echo $val1 ;?>';
+        var value2 = '<?php echo $val2 ;?>';
+        document.getElementById("disp1").innerHTML=msg+" :: Access in Func :: onLoad()";
+        document.getElementById("disp2").innerHTML=value1+" :: Access in Func :: onLoad()";
+        document.getElementById("disp3").innerHTML=value2+" :: Access in Func :: onLoad()";        
+        }
+
+    </script>
+</head>
+<body>
+    <button id="start" onClick = 'one()' size = "20px">    Click Me   </button>
+    <p id="disp1"></p>
+    <p id="disp2"></p>    
+    <p id="disp3"></p>
+</body>
+</html>
