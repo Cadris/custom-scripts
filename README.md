@@ -6,5 +6,7 @@ I am fine with any one using this, just remenber whatever you do is upto you, an
 
 All the diferent projects have their seperate folders, which contains their own documentaions.
 
+Note : Press the `.` button on keyboard to open VS Code in browser for a better view. 
+
 Thanking you,<br>
 **Cadris**
