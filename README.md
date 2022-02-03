@@ -8,7 +8,7 @@ All the diferent projects have their seperate folders, which contains their own 
 
 Note : Press the `.` button on keyboard to open VS Code in browser for a better view. 
 
-`curl https://raw.githubusercontent.com/Cadris/scripts/master/<FileName> -o <File Name>.<extention>`
+Run this command from terminal to download :<br>`curl https://raw.githubusercontent.com/Cadris/scripts/master/<FileName> -o <File Name>.<extention>`
 
 Thanking you,<br>
 **Cadris**
